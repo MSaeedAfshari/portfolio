@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+    color: var(--dark_Text);
+}
+
+.logoContainer {
+    width: 150px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.navigationContainer {
+    display: flex;
+    align-items: center;
+}
+
+.vavItem {
+    color: var(--dark_Text);
+    font-size: 1.75rem;
+    padding: 0 3rem;
+    color: var(--dark_Text_secondary);
+}
+
+.active{
+    color: var(--dark_Accent);
+}
+
+.hireButton {
+    background-color: var(--dark_Primary);
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: var(--dark_Text);
+    font-weight: 500;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.hireButton:hover {
+    color: var(--dark_Primary);
+    background-color: var(--dark_Text);
+}
