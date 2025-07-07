@@ -1,6 +1,15 @@
 :root {
-  --Blue: #1F4A7C;
-  --Dark_Gray: #2F2F2F;
-  --Red: #C02C27;
-  --Black: #0D0D0D;
+  /* Light theme */
+  --light_Background: #F5F7FA;
+  --light_Text: #1A1A1A;
+  --light_Primary: #1F4A7C;
+  --light_Accent: #C02C27;
+  --light_Surfaces: #FFFFFF;
+
+  /* Dark theme */
+  --dark_Background: #0D0D0D;
+  --dark_Text: #FAFAFA;
+  --dark_Primary: #1F4A7C;
+  --dark_Accent: #C02C27;
+  --dark_Surfaces: #2F2F2F;
 }
