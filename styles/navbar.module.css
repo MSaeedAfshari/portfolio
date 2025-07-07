@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
-    justify-content: space-around;
-    padding-top: 4rem;
+    justify-content: space-between;
+    padding: 4rem 6rem;
     color: var(--dark_Text);
 }
 
