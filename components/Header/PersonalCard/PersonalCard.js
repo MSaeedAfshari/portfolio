@@ -7,7 +7,7 @@ export default function PersonalCard() {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.textContainer}>
-        <span>Hi I am</span>
+        <span className={styles.textSpan}>Hi I am</span>
         <h2>Mohammad Saeed Afshari</h2>
         <h1>Developer</h1>
         <div className={styles.iconContainer}>
@@ -39,15 +39,15 @@ export default function PersonalCard() {
         <div className={styles.xpContainer}>
           <div className={styles.xpTextContainer}>
             <span className={styles.xpNum}>5+</span>
-            <span>Experience</span>
+            <span className={styles.textSpan}>Experience</span>
           </div>
           <div className={styles.xpTextContainerMid}>
             <span className={styles.xpNum}>20+</span>
-            <span>Projects done</span>
+            <span className={styles.textSpan}>Projects done</span>
           </div>
           <div className={styles.xpTextContainer}>
             <span className={styles.xpNum}>80+</span>
-            <span>Happy Clients</span>
+            <span className={styles.textSpan}>Happy Clients</span>
           </div>
         </div>
       </div>
