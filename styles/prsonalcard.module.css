@@ -1,0 +1,129 @@
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6%;
+}
+
+.textContainer {
+    color: var(--dark_Text);
+    background-image: url("/images/vector.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+.textContainer span {
+    font-size: 1.8rem;
+}
+
+.textContainer h2 {
+    font-size: 2.5rem;
+    color: var(--dark_Text_secondary);
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.textContainer h1 {
+    font-size: 5rem;
+    color: var(--dark_Accent);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35%;
+    margin-bottom: 30px;
+}
+
+.iconContainer a {
+    color: var(--dark_Text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconContainer span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid var(--dark_Text_secondary);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: var(--dark_Fade_Background);
+}
+
+.buttonContainer {
+    margin-top: 40px;
+}
+
+.buttonContainer button {
+    color: var(--dark_Text);
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.buttonHire {
+    padding: 15px 50px;
+    background-color: var(--dark_Primary);
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.buttonHire:hover {
+    color: var(--dark_Primary);
+    background-color: var(--dark_Text);
+}
+
+.buttonCV {
+    background: none;
+    padding: 12px 50px;
+    color: var(--dark_Text_secondary);
+    border: 3px solid var(--dark_Text_secondary);
+    margin-left: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.buttonCV:hover {
+    background-color: var(--dark_Text_secondary);
+    color: var(--dark_Background);
+}
+
+.xpContainer {
+    background-color: #1b1b1b;
+    margin-top: 12%;
+    width: fit-content;
+    padding: 20px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.xpTextContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+}
+
+.xpNum{
+    color: var(--dark_Accent);
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.xpTextContainerMid{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    border-left: 3px solid var(--dark_Text_secondary);
+    border-right: 3px solid var(--dark_Text_secondary);
+}
