@@ -1,0 +1,25 @@
+.serviceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 6%;
+    margin-top: 5%;
+}
+
+.header{
+    color: var(--dark_Text);
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.serviceContainer p{
+    color: var(--dark_Text_secondary);
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+.cardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
