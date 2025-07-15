@@ -51,7 +51,7 @@ export default function PersonalCard() {
           </div>
         </div>
       </div>
-      <div className="profileContainer">
+      <div className={styles.profileContainer}>
         <img src="images/avatar.png" alt="profile" />
       </div>
     </div>
