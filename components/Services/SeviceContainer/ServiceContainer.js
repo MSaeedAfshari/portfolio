@@ -6,11 +6,16 @@ export default function ServiceContainer() {
   return (
     <div className={styles.serviceContainer}>
       <h2 className={styles.header}>Services</h2>
-      <p>
+      <p className={styles.par}>
         Turning complex problems into elegant, working solutions across the
         world of engineering
       </p>
       <div className={styles.cardContainer}>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
         <Card />
       </div>
     </div>
