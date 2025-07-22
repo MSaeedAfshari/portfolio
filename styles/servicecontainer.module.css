@@ -7,19 +7,22 @@
     margin-top: 5%;
 }
 
-.header{
+.header {
     color: var(--dark_Text);
     font-size: 3.5rem;
     font-weight: 500;
 }
 
-.serviceContainer p{
+.serviceContainer {
     color: var(--dark_Text_secondary);
-    font-size: 1.8rem;
     margin-top: 0;
 }
 
-.cardContainer{
+.par {
+    font-size: 1.8rem;
+}
+
+.cardContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
