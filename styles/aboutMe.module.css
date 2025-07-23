@@ -1,0 +1,51 @@
+.aboutMe {
+    padding: 3% 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size: 3.5rem;
+    color: var(--dark_Text);
+}
+
+.aboutMeDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.textContainer {
+    margin-left: 5rem;
+}
+
+.paragraph {
+    font-size: 32px;
+    line-height: 60px;
+    color: var(--dark_Text_secondary);
+}
+
+.buttonHire {
+    padding: 15px 50px;
+    background-color: var(--dark_Primary);
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    color: var(--dark_Text);
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.buttonHire:hover {
+    color: var(--dark_Primary);
+    background-color: var(--dark_Text);
+}
