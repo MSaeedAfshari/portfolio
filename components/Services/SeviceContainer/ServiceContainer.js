@@ -45,7 +45,7 @@ export default function ServiceContainer() {
         <Card
           icons={<PiPark size={100} color="#C02C27" />}
           title="Chill...?"
-          description="Not everything has to be code and circuits — sometimes, we just chill :)"
+          description="Not everything has to be code and circuits. sometimes, we just chill :)"
         />
       </div>
     </div>
