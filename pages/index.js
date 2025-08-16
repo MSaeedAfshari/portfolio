@@ -1,4 +1,5 @@
 import Aboutme from "@/components/Aboutme/Aboutme";
+import Contactme from "@/components/Contactme/Contactme";
 import Navbar from "@/components/Header/Navbar/Navbar";
 import PersonalCard from "@/components/Header/PersonalCard/PersonalCard";
 import Portfolio from "@/components/Portfolio/Portfolio";
@@ -12,7 +13,8 @@ export default function index() {
       <PersonalCard />
       <ServiceContainer />
       <Aboutme />
-      <Portfolio />
+      {/* <Portfolio /> */}
+      <Contactme />
     </>
   );
 }
