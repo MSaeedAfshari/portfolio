@@ -31,7 +31,7 @@
 .formContainer input {
     background-color: var(--dark_Fade_Background);
     color: var(--dark_Text_secondary);
-    font-size: 24px;
+    font-size: 20px;
     padding: 20px 30px;
     border-radius: 10px;
     border: none;
@@ -45,7 +45,7 @@
 .formContainer select {
     background-color: var(--dark_Fade_Background);
     color: var(--dark_Text_secondary);
-    font-size: 24px;
+    font-size: 20px;
     padding: 20px 30px;
     border-radius: 10px;
     border: none;
