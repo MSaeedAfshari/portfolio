@@ -4,7 +4,7 @@ import styles from "@/styles/contactme.module.css";
 export default function Contactme() {
   return (
     <div className={styles.contactMe}>
-      <form>
+      <form className={styles.form}>
         <h2 className={styles.formHeader}>Contact me</h2>
         <span className={styles.formDesc}>
           Cultivating Connections: Reach Out and Connect with Me
@@ -13,11 +13,6 @@ export default function Contactme() {
           <input name="Name" placeholder="Name" value={""} />
           <input name="Email" placeholder="Email" value={""} />
           <input name="Phone Number" placeholder="Phone Number" value={""} />
-          <input
-            name="Service of Interest"
-            placeholder="Service of Interest"
-            value={""}
-          />
           <select name="Service of Interest">
             <option value={"none"} selected>
               Service of Interest...
