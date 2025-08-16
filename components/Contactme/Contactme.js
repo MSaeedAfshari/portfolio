@@ -31,6 +31,9 @@ export default function Contactme() {
             value={""}
           />
         </div>
+        <div className={styles.buttonContainer}>
+          <button>Send</button>
+        </div>
       </form>
     </div>
   );
