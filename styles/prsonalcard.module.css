@@ -99,7 +99,7 @@
 }
 
 .xpContainer {
-    background-color: #1b1b1b;
+    background-color: var(--dark_Surfaces);
     margin-top: 12%;
     width: fit-content;
     padding: 20px 0px;
