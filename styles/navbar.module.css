@@ -1,49 +1,53 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 3% 6%;
-    color: var(--dark_Text);
-}
+@media (min-width: 1440px) {
 
-.logoContainer {
-    width: 150px;
-}
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 3% 6%;
+        color: var(--dark_Text);
+    }
 
-.logo {
-    width: 100%;
-}
+    .logoContainer {
+        width: 150px;
+    }
 
-.navigationContainer {
-    display: flex;
-    align-items: center;
-}
+    .logo {
+        width: 100%;
+    }
 
-.vavItem {
-    color: var(--dark_Text);
-    font-size: 1.75rem;
-    padding: 0 3rem;
-    color: var(--dark_Text_secondary);
-    font-weight: 400;
-}
+    .navigationContainer {
+        display: flex;
+        align-items: center;
+    }
 
-.active{
-    color: var(--dark_Accent);
-    font-weight: 600;
-}
+    .vavItem {
+        color: var(--dark_Text);
+        font-size: 1.75rem;
+        padding: 0 3rem;
+        color: var(--dark_Text_secondary);
+        font-weight: 400;
+    }
 
-.hireButton {
-    background-color: var(--dark_Primary);
-    padding: 1rem 4rem;
-    border-radius: 10px;
-    font-size: 1.5rem;
-    color: var(--dark_Text);
-    font-weight: 500;
-    border: none;
-    transition: 0.3s;
-    cursor: pointer;
-}
+    .active {
+        color: var(--dark_Accent);
+        font-weight: 600;
+    }
 
-.hireButton:hover {
-    color: var(--dark_Primary);
-    background-color: var(--dark_Text);
+    .hireButton {
+        background-color: var(--dark_Primary);
+        padding: 1rem 4rem;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        color: var(--dark_Text);
+        font-weight: 500;
+        border: none;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .hireButton:hover {
+        color: var(--dark_Primary);
+        background-color: var(--dark_Text);
+    }
+
 }
