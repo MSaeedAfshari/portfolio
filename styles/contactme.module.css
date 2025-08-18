@@ -1,82 +1,86 @@
-.contactMe {
-    padding: 3% 6%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+@media (min-width: 1440px) {
 
-.form {
-    width: 100%;
-}
+    .contactMe {
+        padding: 3% 6%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
-.formHeader {
-    color: var(--dark_Text);
-    font-size: 56px;
-}
+    .form {
+        width: 100%;
+    }
 
-.formDesc {
-    color: var(--dark_Text_secondary);
-    font-size: 24px;
-}
+    .formHeader {
+        color: var(--dark_Text);
+        font-size: 56px;
+    }
 
-.formContainer {
-    margin-top: 45px;
-    padding: 0 200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+    .formDesc {
+        color: var(--dark_Text_secondary);
+        font-size: 24px;
+    }
 
-.formContainer input {
-    background-color: var(--dark_Fade_Background);
-    color: var(--dark_Text_secondary);
-    font-size: 20px;
-    padding: 20px 30px;
-    border-radius: 10px;
-    border: none;
-    margin: 15px;
-}
+    .formContainer {
+        margin-top: 45px;
+        padding: 0 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
-.formContainer input::placeholder {
-    color: var(--dark_Text_secondary);
-}
+    .formContainer input {
+        background-color: var(--dark_Fade_Background);
+        color: var(--dark_Text_secondary);
+        font-size: 20px;
+        padding: 20px 30px;
+        border-radius: 10px;
+        border: none;
+        margin: 15px;
+    }
 
-.formContainer select {
-    background-color: var(--dark_Fade_Background);
-    color: var(--dark_Text_secondary);
-    font-size: 20px;
-    padding: 20px 30px;
-    border-radius: 10px;
-    border: none;
-    margin: 15px;
+    .formContainer input::placeholder {
+        color: var(--dark_Text_secondary);
+    }
 
-    appearance: none;
-    background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    background-size: 32px;
-}
+    .formContainer select {
+        background-color: var(--dark_Fade_Background);
+        color: var(--dark_Text_secondary);
+        font-size: 20px;
+        padding: 20px 30px;
+        border-radius: 10px;
+        border: none;
+        margin: 15px;
 
-.buttonContainer {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0 200px;
-}
+        appearance: none;
+        background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        background-size: 32px;
+    }
 
-.buttonContainer button {
-    margin: 15px;
-    font-size: 24px;
-    padding: 15px 30px;
-    background: none;
-    color: var(--dark_Text_secondary);
-    border: solid 3px var(--dark_Text_secondary);
-    cursor: pointer;
-    border-radius: 10px;
-    transition: 0.3s;
-}
+    .buttonContainer {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 200px;
+    }
 
-.buttonContainer button:hover{
-    background-color: var(--dark_Text_secondary);
-    color: var(--dark_Background);
+    .buttonContainer button {
+        margin: 15px;
+        font-size: 24px;
+        padding: 15px 30px;
+        background: none;
+        color: var(--dark_Text_secondary);
+        border: solid 3px var(--dark_Text_secondary);
+        cursor: pointer;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .buttonContainer button:hover {
+        background-color: var(--dark_Text_secondary);
+        color: var(--dark_Background);
+    }
+
 }
