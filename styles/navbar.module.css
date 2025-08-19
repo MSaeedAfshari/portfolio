@@ -1,10 +1,39 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 15px;
+    justify-content: space-between;
+}
+
+.navigationContainer {
+    display: none;
+}
+
+.menuIcon {
+    color: var(--dark_Text_secondary);
+}
+
+.logo {
+    width: 70px;
+}
+
+.hireButton {
+    background-color: var(--dark_Primary);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--dark_Text);
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
 @media (min-width: 1440px) {
 
     .navbar {
-        display: flex;
-        justify-content: space-between;
         padding: 3% 6%;
-        color: var(--dark_Text);
     }
 
     .logoContainer {
@@ -13,6 +42,10 @@
 
     .logo {
         width: 100%;
+    }
+
+    .menuIcon {
+        display: none;
     }
 
     .navigationContainer {

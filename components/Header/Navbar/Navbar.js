@@ -1,9 +1,13 @@
 import React from "react";
 import styles from "@/styles/navbar.module.css";
+import { HiOutlineMenuAlt1 } from "react-icons/hi";
 
 export default function Navbar() {
   return (
     <div className={styles.navbar}>
+      <div className={styles.menuIcon}>
+        <HiOutlineMenuAlt1 size={36}/>
+      </div>
       <div className={styles.logoContainer}>
         <img src="/images/logo.png" alt="logo" className={styles.logo} />
       </div>
