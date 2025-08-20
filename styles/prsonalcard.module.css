@@ -1,9 +1,10 @@
 .cardContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding: 0 6%;
+    margin-top: 30px;
 }
 
 .textContainer {
@@ -11,32 +12,33 @@
     background-image: url("/images/vector.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 50%;
-}
-
-.textContainer span {
-    font-size: 1.8rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .textContainer h2 {
-    font-size: 2.5rem;
+    font-size: 24px;
     color: var(--dark_Text_secondary);
     font-weight: 600;
     margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .textContainer h1 {
-    font-size: 5rem;
+    font-size: 64px;
     color: var(--dark_Accent);
-    margin-top: 30px;
+    margin-top: 5px;
     margin-bottom: 30px;
 }
 
 .iconContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 35%;
+    justify-content: center;
+    padding: 0 5%;
     margin-bottom: 30px;
 }
 
@@ -57,21 +59,22 @@
     width: 15px;
     height: 15px;
     background-color: var(--dark_Fade_Background);
+    margin: 0 15px;
 }
 
 .buttonContainer {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .buttonContainer button {
     color: var(--dark_Text);
     outline: none;
     border-radius: 10px;
-    font-size: 1.5rem;
+    font-size: 18px;
 }
 
 .buttonHire {
-    padding: 15px 50px;
+    padding: 10px 25px;
     background-color: var(--dark_Primary);
     border: none;
     transition: 0.5s;
@@ -85,7 +88,7 @@
 
 .buttonCV {
     background: none;
-    padding: 12px 50px;
+    padding: 10px 25px;
     color: var(--dark_Text_secondary);
     border: 3px solid var(--dark_Text_secondary);
     margin-left: 25px;
@@ -101,42 +104,197 @@
 .xpContainer {
     background-color: var(--dark_Surfaces);
     margin-top: 12%;
-    width: fit-content;
+    width: 100%;
     padding: 20px 0px;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
-.xpTextContainer{
+.xpTextContainer {
     display: flex;
     flex-direction: column;
-    padding: 15px 25px;
+    padding: 5px;
+    text-align: left;
 }
 
-.xpNum{
+.xpNum {
     color: var(--dark_Accent);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: 800;
+    text-align: left;
 }
 
-.xpTextContainerMid{
+.xpTextContainerMid {
     display: flex;
     flex-direction: column;
-    padding: 15px 25px;
     border-left: 3px solid var(--dark_Text_secondary);
     border-right: 3px solid var(--dark_Text_secondary);
+    text-align: left;
+    padding: 5px 10px;
 }
 
-.textSpan{
+.textSpan {
     color: var(--dark_Text_secondary);
+    font-size: 16px;
 }
 
-.profileContainer{
-    width: 40%;
+.xpContainer .textSpan{
+    color: var(--dark_Text);
+}
+
+.profileContainer {
     margin-top: 40px;
 }
 
-.profileContainer img{
+.profileContainer img {
     width: 100%;
+}
+
+@media (min-width: 1440px) {
+
+    .cardContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 6%;
+    }
+
+    .textContainer {
+        color: var(--dark_Text);
+        background-image: url("/images/vector.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 50%;
+    }
+
+    .textContainer span {
+        font-size: 1.8rem;
+    }
+
+    .textContainer h2 {
+        font-size: 2.5rem;
+        color: var(--dark_Text_secondary);
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .textContainer h1 {
+        font-size: 5rem;
+        color: var(--dark_Accent);
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .iconContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 35%;
+        margin-bottom: 30px;
+    }
+
+    .iconContainer a {
+        color: var(--dark_Text);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconContainer span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        border: 1px solid var(--dark_Text_secondary);
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        background-color: var(--dark_Fade_Background);
+    }
+
+    .buttonContainer {
+        margin-top: 40px;
+    }
+
+    .buttonContainer button {
+        color: var(--dark_Text);
+        outline: none;
+        border-radius: 10px;
+        font-size: 1.5rem;
+    }
+
+    .buttonHire {
+        padding: 15px 50px;
+        background-color: var(--dark_Primary);
+        border: none;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .buttonHire:hover {
+        color: var(--dark_Primary);
+        background-color: var(--dark_Text);
+    }
+
+    .buttonCV {
+        background: none;
+        padding: 12px 50px;
+        color: var(--dark_Text_secondary);
+        border: 3px solid var(--dark_Text_secondary);
+        margin-left: 25px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .buttonCV:hover {
+        background-color: var(--dark_Text_secondary);
+        color: var(--dark_Background);
+    }
+
+    .xpContainer {
+        background-color: var(--dark_Surfaces);
+        margin-top: 12%;
+        width: fit-content;
+        padding: 20px 0px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .xpTextContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 25px;
+    }
+
+    .xpNum {
+        color: var(--dark_Accent);
+        margin-bottom: 20px;
+        font-weight: 800;
+    }
+
+    .xpTextContainerMid {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 25px;
+        border-left: 3px solid var(--dark_Text_secondary);
+        border-right: 3px solid var(--dark_Text_secondary);
+    }
+
+    .textSpan {
+        color: var(--dark_Text_secondary);
+    }
+
+    .profileContainer {
+        width: 40%;
+        margin-top: 40px;
+    }
+
+    .profileContainer img {
+        width: 100%;
+    }
+
 }

@@ -1,49 +1,114 @@
 .navbar {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 15px;
     justify-content: space-between;
-    padding: 3% 6%;
-    color: var(--dark_Text);
 }
 
-.logoContainer {
-    width: 150px;
+.menuIcon {
+    color: var(--dark_Text_secondary);
 }
 
 .logo {
-    width: 100%;
-}
-
-.navigationContainer {
-    display: flex;
-    align-items: center;
-}
-
-.vavItem {
-    color: var(--dark_Text);
-    font-size: 1.75rem;
-    padding: 0 3rem;
-    color: var(--dark_Text_secondary);
-    font-weight: 400;
-}
-
-.active{
-    color: var(--dark_Accent);
-    font-weight: 600;
+    width: 70px;
 }
 
 .hireButton {
     background-color: var(--dark_Primary);
-    padding: 1rem 4rem;
-    border-radius: 10px;
-    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
     color: var(--dark_Text);
-    font-weight: 500;
     border: none;
     transition: 0.3s;
     cursor: pointer;
 }
 
-.hireButton:hover {
-    color: var(--dark_Primary);
-    background-color: var(--dark_Text);
+.menuOverlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #181818;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--dark_Text_secondary);
+}
+
+.closeMenu{
+    position: fixed;
+    color: var(--dark_Text_secondary);
+    top: 30px;
+    left: 15px;
+}
+
+.vavItem{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1440px) {
+
+    .navbar {
+        padding: 3% 6%;
+    }
+
+    .logoContainer {
+        width: 150px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .menuIcon {
+        display: none;
+    }
+
+    .navigationContainer {
+        display: flex;
+        align-items: center;
+    }
+
+    .vavItem {
+        color: var(--dark_Text);
+        font-size: 1.75rem;
+        padding: 0 3rem;
+        color: var(--dark_Text_secondary);
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .active {
+        color: var(--dark_Accent);
+        font-weight: 600;
+    }
+
+    .hireButton {
+        padding: 1rem 4rem;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .hireButton:hover {
+        color: var(--dark_Primary);
+        background-color: var(--dark_Text);
+    }
+
 }
