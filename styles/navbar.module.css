@@ -6,10 +6,6 @@
     justify-content: space-between;
 }
 
-.navigationContainer {
-    display: none;
-}
-
 .menuIcon {
     color: var(--dark_Text_secondary);
 }
@@ -29,6 +25,40 @@
     cursor: pointer;
 }
 
+.menuOverlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #181818;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--dark_Text_secondary);
+}
+
+.closeMenu{
+    position: fixed;
+    color: var(--dark_Text_secondary);
+    top: 30px;
+    left: 15px;
+}
+
+.vavItem{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
 
 @media (min-width: 1440px) {
 
@@ -67,13 +97,10 @@
     }
 
     .hireButton {
-        background-color: var(--dark_Primary);
         padding: 1rem 4rem;
         border-radius: 10px;
         font-size: 1.5rem;
-        color: var(--dark_Text);
         font-weight: 500;
-        border: none;
         transition: 0.3s;
         cursor: pointer;
     }
