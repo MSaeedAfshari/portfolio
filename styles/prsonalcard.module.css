@@ -1,3 +1,157 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6%;
+    margin-top: 30px;
+}
+
+.textContainer {
+    color: var(--dark_Text);
+    background-image: url("/images/vector.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textContainer h2 {
+    font-size: 24px;
+    color: var(--dark_Text_secondary);
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.textContainer h1 {
+    font-size: 64px;
+    color: var(--dark_Accent);
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 5%;
+    margin-bottom: 30px;
+}
+
+.iconContainer a {
+    color: var(--dark_Text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconContainer span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid var(--dark_Text_secondary);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: var(--dark_Fade_Background);
+    margin: 0 15px;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+}
+
+.buttonContainer button {
+    color: var(--dark_Text);
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.buttonHire {
+    padding: 10px 25px;
+    background-color: var(--dark_Primary);
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.buttonHire:hover {
+    color: var(--dark_Primary);
+    background-color: var(--dark_Text);
+}
+
+.buttonCV {
+    background: none;
+    padding: 10px 25px;
+    color: var(--dark_Text_secondary);
+    border: 3px solid var(--dark_Text_secondary);
+    margin-left: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.buttonCV:hover {
+    background-color: var(--dark_Text_secondary);
+    color: var(--dark_Background);
+}
+
+.xpContainer {
+    background-color: var(--dark_Surfaces);
+    margin-top: 12%;
+    width: 100%;
+    padding: 20px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.xpTextContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: left;
+}
+
+.xpNum {
+    color: var(--dark_Accent);
+    margin-bottom: 10px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.xpTextContainerMid {
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid var(--dark_Text_secondary);
+    border-right: 3px solid var(--dark_Text_secondary);
+    text-align: left;
+    padding: 5px 10px;
+}
+
+.textSpan {
+    color: var(--dark_Text_secondary);
+    font-size: 16px;
+}
+
+.xpContainer .textSpan{
+    color: var(--dark_Text);
+}
+
+.profileContainer {
+    margin-top: 40px;
+}
+
+.profileContainer img {
+    width: 100%;
+}
+
 @media (min-width: 1440px) {
 
     .cardContainer {
