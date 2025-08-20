@@ -29,14 +29,20 @@ export default function Navbar() {
       </div>
 
       {isDeviceMobile ? (
-        <div className={`${styles.menuOverlay} ${showMenu}`}>
-          <IoClose size={36}  className={styles.closeMenu} onClick={changeMenu}/>
-          <div className={styles.menuItems}>
-            <span className={styles.vavItem}>Home</span>
-            <span className={styles.vavItem}>Services</span>
-            <span className={styles.vavItem}>About me</span>
-            <span className={styles.vavItem}>Portfolio</span>
-            <span className={styles.vavItem}>Contact me</span>
+        <div className={`${showMenu}`}>
+          <div className={styles.menuOverlay}>
+            <IoClose
+              size={36}
+              className={styles.closeMenu}
+              onClick={changeMenu}
+            />
+            <div className={styles.menuItems}>
+              <span className={styles.vavItem}>Home</span>
+              <span className={styles.vavItem}>Services</span>
+              <span className={styles.vavItem}>About me</span>
+              <span className={styles.vavItem}>Portfolio</span>
+              <span className={styles.vavItem}>Contact me</span>
+            </div>
           </div>
         </div>
       ) : null}
