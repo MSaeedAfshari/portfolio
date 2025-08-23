@@ -6,7 +6,7 @@ export default function Aboutme() {
   return (
     <div className={styles.aboutMe}>
       <h2 className={styles.header}>About Me</h2>
-      <span className={styles.paragraph}>
+      <span className={styles.headerParagraph}>
         Embedded Systems and Electronics and Also Web Designing
       </span>
       <div className={styles.aboutMeDetail}>
