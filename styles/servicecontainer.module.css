@@ -1,3 +1,29 @@
+.serviceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 6%;
+    margin-top: 50px;
+    color: var(--dark_Text_secondary);
+}
+
+.header {
+    color: var(--dark_Text);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.par {
+    font-size: 16px;
+    text-align: center;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 @media (min-width: 1440px) {
 
     .serviceContainer {
@@ -6,18 +32,14 @@
         justify-content: center;
         align-items: center;
         padding: 3% 6%;
-        margin-top: 5%;
+        margin-top: 0;
+        color: var(--dark_Text_secondary);
     }
 
     .header {
         color: var(--dark_Text);
         font-size: 3.5rem;
         font-weight: 500;
-    }
-
-    .serviceContainer {
-        color: var(--dark_Text_secondary);
-        margin-top: 0;
     }
 
     .par {
