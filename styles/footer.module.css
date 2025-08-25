@@ -27,6 +27,7 @@
     padding: 0 10px;
     color: var(--dark_Text_secondary);
     font-weight: 400;
+    text-align: center;
 }
 
 .iconContainer {
