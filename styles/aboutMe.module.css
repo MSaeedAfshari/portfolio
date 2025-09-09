@@ -65,6 +65,12 @@
     flex-direction: column;
 }
 
+.progressBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+}
+
 @media (min-width: 1440px) {
 
     .aboutMe {
