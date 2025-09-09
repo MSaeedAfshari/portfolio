@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "@/styles/aboutMe.module.css";
 import { MdOutlineFileDownload } from "react-icons/md";
-import SkillCircle from "../Progressbar/Progressbar";
+import SkillCircle from "../SkillCircle/SkillCircle";
 
 export default function Aboutme() {
   return (
