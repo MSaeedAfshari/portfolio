@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "@/styles/aboutMe.module.css";
 import { MdOutlineFileDownload } from "react-icons/md";
+import SkillCircle from "../SkillCircle/SkillCircle";
 
 export default function Aboutme() {
   return (
@@ -32,6 +33,14 @@ export default function Aboutme() {
             <span>Download CV</span>
           </button>
         </div>
+      </div>
+      <div className={styles.progressBar}>
+        <SkillCircle percentage={40} label={"ESP-IDF"}/>
+        <SkillCircle percentage={100} label={"Arduino"}/>
+        <SkillCircle percentage={70} label={"Next-JS"}/>
+        <SkillCircle percentage={90} label={"React"}/>
+        <SkillCircle percentage={80} label={"Solidworks"}/>
+        <SkillCircle percentage={80} label={"Electronics"}/>
       </div>
     </div>
   );

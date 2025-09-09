@@ -1,0 +1,24 @@
+.circleContainer {
+    margin: 15px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.percentage {
+    color: var(--dark_Primary);
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.label {
+    color: var(--dark_Text);
+    text-align: center;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
