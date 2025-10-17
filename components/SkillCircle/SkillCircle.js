@@ -6,7 +6,7 @@ import style from "@/styles/skillCircle.module.css";
 const SkillCircle = ({ percentage, label }) => {
   return (
     <div className={style.circleContainer}>
-      <div style={{ width: 100, height: 100 }}>
+      <div style={{ width: 150, height: 150 }}>
         <CircularProgressbar
           value={percentage}
           styles={buildStyles({
